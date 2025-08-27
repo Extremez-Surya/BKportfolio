@@ -48,6 +48,68 @@ export default function DigitalServices() {
   const digitalServices = [
     {
       id: 1,
+      title: "Data Entry & Typing Work",
+      category: "Data Services",
+      description: "Accurate and fast data entry services including typing, data conversion, and document processing",
+      detailedDescription:
+        "Professional data entry and typing services to help streamline your business operations. From simple data entry tasks to complex document processing, I provide accurate, efficient, and reliable solutions that save you time and resources.",
+      icon: "📊",
+      gradient: "from-blue-500 via-indigo-600 to-purple-700",
+      features: [
+        "99.9% accuracy guarantee",
+        "Fast turnaround time",
+        "Excel/Google Sheets expertise",
+        "Document conversion services",
+        "Data cleaning & formatting",
+        "Online form filling",
+        "PDF to Excel conversion",
+        "Database management",
+      ],
+      technologies: [
+        "MS Excel",
+        "Google Sheets",
+        "Word",
+        "PDF",
+        "OCR Tools",
+        "Database Systems",
+      ],
+      pricing: "₹500 - ₹5,000",
+      timeline: "1-3 days",
+      rounds: "2 rounds",
+      portfolio: [
+        {
+          name: "Customer Database",
+          image:
+            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+        },
+        {
+          name: "Inventory Management",
+          image:
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+        },
+        {
+          name: "Financial Records",
+          image:
+            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop",
+        },
+      ],
+      process: [
+        "Requirement Analysis & Data Assessment",
+        "Format Selection & Template Creation",
+        "Data Entry & Processing",
+        "Quality Check & Validation",
+        "Delivery & Review",
+        "Revisions & Final Delivery",
+      ],
+      guarantees: [
+        "100% Data Accuracy",
+        "Confidentiality Assured",
+        "On-Time Delivery",
+        "Unlimited Revisions",
+      ],
+    },
+    {
+      id: 2,
       title: "Custom Web Development",
       category: "Development",
       description: "Modern, responsive websites and web applications",
@@ -102,7 +164,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Mobile App Development",
       category: "Mobile",
       description: "Native and cross-platform mobile applications",
@@ -157,7 +219,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Digital Marketing",
       category: "Marketing",
       description: "Comprehensive digital marketing strategies",
@@ -212,7 +274,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "E-commerce Solutions",
       category: "E-commerce",
       description: "Complete online store development and management",
@@ -267,7 +329,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "UI/UX Design",
       category: "Design",
       description: "User-centered design for digital products",
@@ -322,7 +384,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "API Development",
       category: "Backend",
       description: "Robust API development and integration services",
@@ -377,7 +439,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Cloud Solutions",
       category: "Cloud",
       description: "Scalable cloud infrastructure and deployment",
@@ -432,7 +494,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "DevOps & Automation",
       category: "DevOps",
       description: "CI/CD pipelines and automation solutions",
@@ -487,7 +549,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Data Analytics & Business Intelligence",
       category: "Analytics",
       description: "Transform your data into actionable business insights",
@@ -542,7 +604,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 10,
+      id: 11,
       title: "Machine Learning & AI Solutions",
       category: "AI/ML",
       description: "Intelligent automation and predictive analytics",
@@ -597,7 +659,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 11,
+      id: 12,
       title: "Geospatial Data Processing",
       category: "GIS",
       description: "Advanced geospatial analysis and mapping solutions",
@@ -652,7 +714,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 12,
+      id: 13,
       title: "Database Design & Management",
       category: "Database",
       description: "Robust database solutions and optimization",
@@ -707,7 +769,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 13,
+      id: 14,
       title: "Python Automation & Scripting",
       category: "Automation",
       description: "Automate repetitive tasks and streamline workflows",
@@ -762,7 +824,7 @@ export default function DigitalServices() {
       ],
     },
     {
-      id: 14,
+      id: 15,
       title: "Technical Consulting & Training",
       category: "Consulting",
       description: "Expert guidance and knowledge transfer services",

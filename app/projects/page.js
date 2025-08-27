@@ -25,40 +25,6 @@ export default function ProjectsPage() {
   const projects = useMemo(
     () => [
       {
-        id: 1,
-        title: "Makeover Cosmetics - Luxury E-Commerce",
-        category: "fullstack",
-        tags: ["Odoo", "E-Commerce", "Luxury Brand", "Cosmetics", "Perfumes"],
-        description:
-          "A premium luxury cosmetics and perfume e-commerce platform featuring branded makeup items, fragrances, and beauty products with sophisticated design and seamless shopping experience.",
-        longDescription:
-          "Developed and launched Makeover Cosmetics, a high-end luxury e-commerce platform specializing in premium cosmetics, branded perfumes, and beauty products. The platform features an elegant design that reflects the luxury brand identity, comprehensive product catalog with detailed descriptions, secure payment processing, inventory management, and customer account features. Built to provide a premium shopping experience for discerning customers seeking quality beauty products.",
-        images: ["/assets/MOC1.png"],
-        liveUrl: "https://makeovercosmetics.odoo.com/",
-        githubUrl: null, // Private/Commercial project
-        features: [
-          "Luxury Brand Design",
-          "Product Catalog",
-          "Secure Payments",
-          "Inventory Management",
-          "Customer Accounts",
-          "Mobile Responsive",
-          "SEO Optimized",
-        ],
-        technologies: [
-          "Odoo",
-          "Python",
-          "PostgreSQL",
-          "JavaScript",
-          "CSS3",
-          "HTML5",
-        ],
-        status: "live",
-        duration: "2 months",
-        role: "Full Stack Developer & Designer",
-        teamSize: "Solo Project",
-      },
-      {
         id: 2,
         title: "Bhupender Kumar's Portfolio",
         category: "fullstack",
@@ -95,7 +61,7 @@ export default function ProjectsPage() {
       },
       {
         id: 3,
-        title: "Winning Ways - Personal Portfolio",
+        title: "Extremez - Personal Portfolio",
         category: "frontend",
         tags: [
           "HTML",
@@ -112,7 +78,7 @@ export default function ProjectsPage() {
         images: [
           "/assets/MOC3.png", // Using existing image as placeholder
         ],
-        liveUrl: "https://winningways.vercel.app/",
+        liveUrl: "https://extremez.vercel.app/",
         githubUrl: null, // Personal project
         features: [
           "Vanilla JavaScript",
